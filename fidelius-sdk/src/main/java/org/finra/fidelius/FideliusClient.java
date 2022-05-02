@@ -238,7 +238,7 @@ public class FideliusClient {
                 return userTokens[0];
             }
         } catch(Exception e){
-            logger.error(e.getLocalizedMessage());
+            logger.error(e.getMessage());
             throw new RuntimeException(e);
         }
     }
