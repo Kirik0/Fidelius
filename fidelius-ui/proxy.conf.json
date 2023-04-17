@@ -1,9 +1,10 @@
 {
   "/api/fidelius/*": {
-    "target": "http://localhost:7878",
+    "target": "http://localhost:8082",
     "secure": "false",
     "logLevel": "debug",
     "headers": {
+      "samaccountname": "k27459"
     }
   }
 }

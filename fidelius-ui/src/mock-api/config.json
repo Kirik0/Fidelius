@@ -4,7 +4,7 @@
 	"staticDirectory": "./data/",
 	"staticPath": "./data/",
 	"quiet": false,
-	"port": "7878",
+	"port": "8080",
 	"latency": 150,
 	"logRequestHeaders": false,
 	"webServices": {
